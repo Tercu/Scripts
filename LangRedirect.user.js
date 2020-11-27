@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LangRedirect
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  This script redirects docs.microsoft.com from any localisation language to selected in DesiredLanguage variable.
 // @author       Tercu
 // @updateURL    https://github.com/Tercu/Scripts/blob/main/LangRedirect.user.js
