@@ -8,6 +8,10 @@
 // @grant        none
 // ==/UserScript==
 
+// This script redirects docs.microsoft.com from any localisation language to selected in DesiredLanguage variable.
+// there is need for this script because default behavior for Microsoft site is to translate documentation to language
+// in your location (probably based on IP address) and most of the time there is no switch to turn off translation.
+// I want to read documentation in english, not in my native language with poor quality translation.
 
 function RedirectToLocation() {
     var DesiredLanguage = "/en-us/";
