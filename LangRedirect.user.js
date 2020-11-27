@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name         LangRedirect
 // @namespace    http://tampermonkey.net/
 // @version      0.1
@@ -13,7 +13,7 @@
 // there is need for this script because default behavior for Microsoft site is to translate documentation to language
 // in your location (probably based on IP address) and most of the time there is no switch to turn off translation.
 // I want to read documentation in english, not in my native language with poor quality translation.
-
+'use strict';
 function RedirectToLocation() {
     var DesiredLanguage = "/en-us/";
     var CurrentAddress = window.location.href;
